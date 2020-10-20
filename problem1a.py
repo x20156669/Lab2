@@ -7,13 +7,20 @@ class Greetings:
     def say_hi(self):
         return 'Hello {}!'.format(self.name)
 
+print('Hi')
 
 
+n2 = input()
+g2 = Greetings(n2)
 
 
 print('What\'s your name?')
+
+
 n = input()
 g = Greetings(n)
+
+
 print(g.say_hi())
 
 
